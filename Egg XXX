@@ -1,0 +1,27 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Egg Hatchers X", "Synapse")
+
+-- main
+local Tab = Window:NewTab("Egg Open")
+local Section = Tab:NewSection("FASTER EGGS")
+
+Section:NewToggle("Axolot Egg", "FUCK THIS GAME XD", function(state)
+    if state then
+         _G.loop = true
+    while _G.loop == true do wait()
+        
+        local args = {
+            [1] = "axolotl Chest",
+            [2] = "Buy3"
+        }
+        
+                game:GetService("ReplicatedStorage").GameClient.Events.RemoteFunction.BuyEgg:InvokeServer(unpack(args))
+    
+    end    
+    else
+        _G.loop = false
+        while _G.loop == true do wait()
+        end   
+        end
+end)
+
