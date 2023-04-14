@@ -1,9 +1,9 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Egg Hatchers X", "Synapse")
+local Window = Library.CreateLib("Egg Hatchers X by slochawka :3", "Synapse")
 
 -- main
 local Tab = Window:NewTab("Egg Open")
-local Section = Tab:NewSection("FASTER EGGS")
+local Section = Tab:NewSection("FASTER EGGS ONLY x3 OPEN")
 
 Section:NewToggle("Axolot Egg", "FUCK THIS GAME XD", function(state)
     if state then
@@ -25,3 +25,464 @@ Section:NewToggle("Axolot Egg", "FUCK THIS GAME XD", function(state)
         end
 end)
 
+Section:NewToggle("Pixel Egg", "FUCK THIS GAME XD", function(state)
+    if state then
+         _G.loop = true
+    while _G.loop == true do wait()
+        
+        local args = {
+            [1] = "Pixel Chest",
+            [2] = "Buy3"
+        }
+        
+                game:GetService("ReplicatedStorage").GameClient.Events.RemoteFunction.BuyEgg:InvokeServer(unpack(args))
+    
+    end    
+    else
+        _G.loop = false
+        while _G.loop == true do wait()
+        end   
+        end
+end)
+
+Section:NewToggle("Diamond Pixel Egg", "FUCK THIS GAME XD", function(state)
+    if state then
+         _G.loop = true
+    while _G.loop == true do wait()
+        
+        local args = {
+            [1] = "Diamond pixel Chest",
+            [2] = "Buy3"
+        }
+        
+                game:GetService("ReplicatedStorage").GameClient.Events.RemoteFunction.BuyEgg:InvokeServer(unpack(args))
+    
+    end    
+    else
+        _G.loop = false
+        while _G.loop == true do wait()
+        end   
+        end
+end)
+
+Section:NewToggle("angel Egg", "FUCK THIS GAME XD", function(state)
+    if state then
+         _G.loop = true
+    while _G.loop == true do wait()
+        
+        local args = {
+            [1] = "angel Chest",
+            [2] = "Buy3"
+        }
+        
+                game:GetService("ReplicatedStorage").GameClient.Events.RemoteFunction.BuyEgg:InvokeServer(unpack(args))
+    
+    end    
+    else
+        _G.loop = false
+        while _G.loop == true do wait()
+        end   
+        end
+end)
+
+Section:NewToggle("lab Egg", "FUCK THIS GAME XD", function(state)
+    if state then
+         _G.loop = true
+    while _G.loop == true do wait()
+        
+        local args = {
+            [1] = "lab Chest",
+            [2] = "Buy3"
+        }
+        
+                game:GetService("ReplicatedStorage").GameClient.Events.RemoteFunction.BuyEgg:InvokeServer(unpack(args))
+    
+    end    
+    else
+        _G.loop = false
+        while _G.loop == true do wait()
+        end   
+        end
+end)
+
+Section:NewToggle("secret lab", "FUCK THIS GAME XD", function(state)
+    if state then
+         _G.loop = true
+    while _G.loop == true do wait()
+        
+        local args = {
+            [1] = "secret lab Chest",
+            [2] = "Buy3"
+        }
+        
+                game:GetService("ReplicatedStorage").GameClient.Events.RemoteFunction.BuyEgg:InvokeServer(unpack(args))
+    
+    end    
+    else
+        _G.loop = false
+        while _G.loop == true do wait()
+        end   
+        end
+end)
+
+Section:NewToggle("glitch", "FUCK THIS GAME XD", function(state)
+    if state then
+         _G.loop = true
+    while _G.loop == true do wait()
+        
+        local args = {
+            [1] = "glitch Chest",
+            [2] = "Buy3"
+        }
+        
+                game:GetService("ReplicatedStorage").GameClient.Events.RemoteFunction.BuyEgg:InvokeServer(unpack(args))
+    
+    end    
+    else
+        _G.loop = false
+        while _G.loop == true do wait()
+        end   
+        end
+end)
+
+Section:NewToggle("alien", "FUCK THIS GAME XD", function(state)
+    if state then
+         _G.loop = true
+    while _G.loop == true do wait()
+        
+        local args = {
+            [1] = "Alien Chest",
+            [2] = "Buy3"
+        }
+        
+                game:GetService("ReplicatedStorage").GameClient.Events.RemoteFunction.BuyEgg:InvokeServer(unpack(args))
+    
+    end    
+    else
+        _G.loop = false
+        while _G.loop == true do wait()
+        end   
+        end
+end)
+
+Section:NewToggle("steampunk", "FUCK THIS GAME XD", function(state)
+    if state then
+         _G.loop = true
+    while _G.loop == true do wait()
+        
+        local args = {
+            [1] = "Steampunk Chest",
+            [2] = "Buy3"
+        }
+        
+                game:GetService("ReplicatedStorage").GameClient.Events.RemoteFunction.BuyEgg:InvokeServer(unpack(args))
+    
+    end    
+    else
+        _G.loop = false
+        while _G.loop == true do wait()
+        end   
+        end
+end)
+
+Section:NewToggle("neon", "FUCK THIS GAME XD", function(state)
+    if state then
+         _G.loop = true
+    while _G.loop == true do wait()
+        
+        local args = {
+            [1] = "neon Chest",
+            [2] = "Buy3"
+        }
+        
+                game:GetService("ReplicatedStorage").GameClient.Events.RemoteFunction.BuyEgg:InvokeServer(unpack(args))
+    
+    end    
+    else
+        _G.loop = false
+        while _G.loop == true do wait()
+        end   
+        end
+end)
+
+local Section = Tab:NewSection("Normal World")
+
+Section:NewToggle("Lava", "FUCK THIS GAME XD", function(state)
+    if state then
+         _G.loop = true
+    while _G.loop == true do wait()
+        
+        local args = {
+            [1] = "lava Chest",
+            [2] = "Buy3"
+        }
+        
+                game:GetService("ReplicatedStorage").GameClient.Events.RemoteFunction.BuyEgg:InvokeServer(unpack(args))
+    
+    end    
+    else
+        _G.loop = false
+        while _G.loop == true do wait()
+        end   
+        end
+end)
+
+Section:NewToggle("Candy", "FUCK THIS GAME XD", function(state)
+    if state then
+         _G.loop = true
+    while _G.loop == true do wait()
+        
+        local args = {
+            [1] = "Candy Chest",
+            [2] = "Buy3"
+        }
+        
+                game:GetService("ReplicatedStorage").GameClient.Events.RemoteFunction.BuyEgg:InvokeServer(unpack(args))
+    
+    end    
+    else
+        _G.loop = false
+        while _G.loop == true do wait()
+        end   
+        end
+end)
+
+Section:NewToggle("Water", "FUCK THIS GAME XD", function(state)
+    if state then
+         _G.loop = true
+    while _G.loop == true do wait()
+        
+        local args = {
+            [1] = "Water Chest",
+            [2] = "Buy3"
+        }
+        
+                game:GetService("ReplicatedStorage").GameClient.Events.RemoteFunction.BuyEgg:InvokeServer(unpack(args))
+    
+    end    
+    else
+        _G.loop = false
+        while _G.loop == true do wait()
+        end   
+        end
+end)
+
+Section:NewToggle("Cave coin", "FUCK THIS GAME XD", function(state)
+    if state then
+         _G.loop = true
+    while _G.loop == true do wait()
+        
+        local args = {
+            [1] = "crystal Chest",
+            [2] = "Buy3"
+        }
+        
+                game:GetService("ReplicatedStorage").GameClient.Events.RemoteFunction.BuyEgg:InvokeServer(unpack(args))
+    
+    end    
+    else
+        _G.loop = false
+        while _G.loop == true do wait()
+        end   
+        end
+end)
+
+Section:NewToggle("Cave Diamond", "FUCK THIS GAME XD", function(state)
+    if state then
+         _G.loop = true
+    while _G.loop == true do wait()
+        
+        local args = {
+            [1] = "gem Chest",
+            [2] = "Buy3"
+        }
+        
+                game:GetService("ReplicatedStorage").GameClient.Events.RemoteFunction.BuyEgg:InvokeServer(unpack(args))
+    
+    end    
+    else
+        _G.loop = false
+        while _G.loop == true do wait()
+        end   
+        end
+end)
+
+
+Section:NewToggle("Food poop", "FUCK THIS GAME XD", function(state)
+    if state then
+         _G.loop = true
+    while _G.loop == true do wait()
+        
+        local args = {
+            [1] = "choco Chest",
+            [2] = "Buy3"
+        }
+        
+                game:GetService("ReplicatedStorage").GameClient.Events.RemoteFunction.BuyEgg:InvokeServer(unpack(args))
+    
+    end    
+    else
+        _G.loop = false
+        while _G.loop == true do wait()
+        end   
+        end
+end)
+
+Section:NewToggle("Snow", "FUCK THIS GAME XD", function(state)
+    if state then
+         _G.loop = true
+    while _G.loop == true do wait()
+        
+        local args = {
+            [1] = "snow Chest",
+            [2] = "Buy3"
+        }
+        
+                game:GetService("ReplicatedStorage").GameClient.Events.RemoteFunction.BuyEgg:InvokeServer(unpack(args))
+    
+    end    
+    else
+        _G.loop = false
+        while _G.loop == true do wait()
+        end   
+        end
+end)
+
+local Section = Tab:NewSection("EVENT EGG")
+
+Section:NewToggle("HUGE", "FUCK THIS GAME XD", function(state)
+    if state then
+         _G.loop = true
+    while _G.loop == true do wait()
+        
+        local args = {
+            [1] = "HUGE Chest",
+            [2] = "Buy3"
+        }
+        
+                game:GetService("ReplicatedStorage").GameClient.Events.RemoteFunction.BuyEgg:InvokeServer(unpack(args))
+    
+    end    
+    else
+        _G.loop = false
+        while _G.loop == true do wait()
+        end   
+        end
+end)
+
+Section:NewToggle("Easter", "FUCK THIS GAME XD", function(state)
+    if state then
+         _G.loop = true
+    while _G.loop == true do wait()
+        
+        local args = {
+            [1] = "easter Chest",
+            [2] = "Buy3"
+        }
+        
+                game:GetService("ReplicatedStorage").GameClient.Events.RemoteFunction.BuyEgg:InvokeServer(unpack(args))
+    
+    end    
+    else
+        _G.loop = false
+        while _G.loop == true do wait()
+        end   
+        end
+end)
+
+local Section = Tab:NewSection("SHOP EGG")
+
+Section:NewToggle("Common egg", "FUCK THIS GAME XD", function(state)
+    if state then
+         _G.loop = true
+    while _G.loop == true do wait()
+        
+        local args = {
+            [1] = "Common Chest",
+            [2] = "Buy3"
+        }
+        
+                game:GetService("ReplicatedStorage").GameClient.Events.RemoteFunction.BuyEgg:InvokeServer(unpack(args))
+    
+    end    
+    else
+        _G.loop = false
+        while _G.loop == true do wait()
+        end   
+        end
+end)
+
+Section:NewToggle("Rare egg", "FUCK THIS GAME XD", function(state)
+    if state then
+         _G.loop = true
+    while _G.loop == true do wait()
+        
+        local args = {
+            [1] = "Rare Chest",
+            [2] = "Buy3"
+        }
+        
+                game:GetService("ReplicatedStorage").GameClient.Events.RemoteFunction.BuyEgg:InvokeServer(unpack(args))
+    
+    end    
+    else
+        _G.loop = false
+        while _G.loop == true do wait()
+        end   
+        end
+end)
+
+Section:NewToggle("Epic egg", "FUCK THIS GAME XD", function(state)
+    if state then
+         _G.loop = true
+    while _G.loop == true do wait()
+        
+        local args = {
+            [1] = "Epic Chest",
+            [2] = "Buy3"
+        }
+        
+                game:GetService("ReplicatedStorage").GameClient.Events.RemoteFunction.BuyEgg:InvokeServer(unpack(args))
+    
+    end    
+    else
+        _G.loop = false
+        while _G.loop == true do wait()
+        end   
+        end
+end)
+
+Section:NewToggle("Legendary egg", "FUCK THIS GAME XD", function(state)
+    if state then
+         _G.loop = true
+    while _G.loop == true do wait()
+        
+        local args = {
+            [1] = "Legendary Chest",
+            [2] = "Buy3"
+        }
+        
+                game:GetService("ReplicatedStorage").GameClient.Events.RemoteFunction.BuyEgg:InvokeServer(unpack(args))
+    
+    end    
+    else
+        _G.loop = false
+        while _G.loop == true do wait()
+        end   
+        end
+end)
+
+
+
+
+
+
+
+
+
+local Tab = Window:NewTab("Misc")
+local Section = Tab:NewSection("Misc")
+
+Section:NewButton("Infinity yield", "Nofog because this game is so laggy", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source", true))()
+end)
